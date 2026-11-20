@@ -1,0 +1,36 @@
+{
+  "customers": 7000,
+  "churn_rate_pct": 35.36,
+  "avg_tenure": 28.8,
+  "avg_monthly": 57.32,
+  "by_contract": {
+    "Month-to-month": 52.6,
+    "One year": 19.5,
+    "Two year": 5.5
+  },
+  "by_internet": {
+    "Fiber": 45.4,
+    "DSL": 27.9,
+    "No service": 26.2
+  },
+  "by_payment": {
+    "Electronic check": 41.5,
+    "Mailed check": 32.6,
+    "Bank transfer": 32.6,
+    "Credit card": 31.7
+  },
+  "by_tenure": {
+    "0-12": 59.4,
+    "13-24": 46.3,
+    "25-48": 23.7,
+    "49-72": 7.7
+  },
+  "corr_with_churn": {
+    "senior_citizen": 0.03,
+    "tenure_months": -0.395,
+    "support_tickets": 0.072,
+    "monthly_charges": 0.179,
+    "total_charges": -0.261,
+    "avg_monthly_spend": 0.179
+  }
+}
